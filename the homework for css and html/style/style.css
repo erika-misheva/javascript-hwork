@@ -336,6 +336,10 @@ margin-right: 8px;
      text-align: center;
      justify-content: center;
  }
+ a.contact{
+    text-decoration: none;
+    color:white;
+ }
 }
  @media all and (max-width: 767px) {
     * {
@@ -673,6 +677,10 @@ margin-right: 8px;
         text-align: center;
         justify-content: center;
     }
+    a.contact{
+        text-decoration: none;
+        color:white;
+     }
 }
 @media all and (max-width: 1280px) and ( min-width: 768px) {
     * {
@@ -1022,5 +1030,9 @@ margin-right: 8px;
         text-align: center;
         justify-content: center;
     }
+    a.contact{
+        text-decoration: none;
+        color:white;
+     }
 }
 

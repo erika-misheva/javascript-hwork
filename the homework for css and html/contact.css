@@ -150,6 +150,7 @@ flex-direction: row;
     label {
         color: hsl(216, 57%, 53%);
         width: 60%;
+
     }
     
     #submit {
@@ -163,17 +164,20 @@ flex-direction: row;
     }
     
     #allow {
-        margin: 0;
-padding: 0;
+        margin-top: 2%;
+        padding: 0;
         width: 25px;
         height: 25px;
+        align-content: center;
     
     }
     
     #newsletter {
-        margin: 0;
+        margin-top: 2%;
         width: 25px;
         height: 25px;
+        padding: 0;
+        align-items: center;
     }
     
     .footer {
@@ -269,15 +273,19 @@ padding: 0;
     }
     
     #allow {
-        margin: 0;
+        margin-top: 2%;
         width: 25px;
         height: 25px;
+        justify-content: center;
+        display: flex;
     }
     
     #newsletter {
-        margin: 0;
+        margin-bottom: 2%;
         width: 25px;
         height: 25px;
+        justify-content: center;
+        display: flex;
     }
     
     .footer {
