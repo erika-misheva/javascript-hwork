@@ -22,8 +22,7 @@ let h1last = $("h1:last");
 let isBlackColor = false;
 
 generateHeaderBtns.click(function () {
-    h1last.css("color", secondInputs[0].value); // red gaga
-    // isValidColor = h1last.css("color") !== `rgb(0, 0, 0)`;
+    h1last.css("color", secondInputs[0].value);
     isBlackColor = h1last.css("color") === `rgb(0, 0, 0)`;
 
      if (firstTextInputs[0].value && !isBlackColor) {
